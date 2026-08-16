@@ -1,0 +1,180 @@
+{
+  "model_footprint_gb": 4.943257856,
+  "peak_memory_gb": 7.872888832,
+  "memory_kind": "process RSS",
+  "rss_delta_gb": 0.06461439999999996,
+  "wall_time_s": 131.51853434881195,
+  "generation_args": {
+    "max_new_tokens": 24,
+    "do_sample": false,
+    "use_cache": true
+  },
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "simulated": true,
+  "device_map": {
+    "": "cpu"
+  },
+  "would_be_device_map_2gpu": {
+    "model.embed_tokens": "0",
+    "model.layers.0": "0",
+    "model.layers.1": "0",
+    "model.layers.2": "0",
+    "model.layers.3": "0",
+    "model.layers.4": "0",
+    "model.layers.5": "1",
+    "model.layers.6": "1",
+    "model.layers.7": "1",
+    "model.layers.8": "1",
+    "model.layers.9": "1",
+    "model.layers.10": "1",
+    "model.layers.11": "1",
+    "model.layers.12": "1",
+    "model.layers.13": "1",
+    "model.layers.14": "1",
+    "model.layers.15": "1",
+    "model.norm": "1",
+    "model.rotary_emb": "1",
+    "lm_head": "disk"
+  },
+  "n_gpus": 0,
+  "label": "tensor_parallel_sim",
+  "n_samples": 20,
+  "max_new_tokens": 24,
+  "latency_mean_s": 6.573495298868511,
+  "latency_std_s": 1.2466778497088473,
+  "latency_p50_s": 6.450945540447719,
+  "latency_p99_s": 9.966920207364018,
+  "latency_min_s": 4.698279174044728,
+  "latency_max_s": 10.30330966389738,
+  "total_time_s": 131.46990597737022,
+  "avg_new_tokens": 11.9,
+  "throughput_tok_s": 1.8103002221737856,
+  "throughput_samples_s": 0.15212606909023407,
+  "rouge1": 0.1544977690307479,
+  "rouge2": 0.028095238095238097,
+  "rougeL": 0.14454406532704422,
+  "rougeLsum": 0.14454406532704422,
+  "samples": [
+    {
+      "headline": "The BAFTAs: A Night of Glamour and Glamourous Stars",
+      "reference": "Emma Watson's Sheer Pink Frock: Yay Or Nay? (PHOTOS)",
+      "new_tokens": 16,
+      "latency_s": 7.238925536861643
+    },
+    {
+      "headline": "The End of Life: A Personal Journey",
+      "reference": "The Conversation Nobody Wants To Have -- But Should",
+      "new_tokens": 9,
+      "latency_s": 6.812413039850071
+    },
+    {
+      "headline": "The Inking of the Inkblot",
+      "reference": "Republicans Sprinting Toward Tax Cuts, Deficits Be Damned",
+      "new_tokens": 9,
+      "latency_s": 5.3344759261235595
+    },
+    {
+      "headline": "Heart Disease: A Reminder to Be Wary of Symptoms",
+      "reference": "A New Dimension to Christmas Leads to Year-Round Devotion",
+      "new_tokens": 12,
+      "latency_s": 7.295952801126987
+    },
+    {
+      "headline": "Antibiotic Use in Hospitals: A Call for Appropriate Use",
+      "reference": "1 In 25 Patients Experience Infection Related To Hospital Stay, Report Shows",
+      "new_tokens": 13,
+      "latency_s": 6.414267144864425
+    },
+    {
+      "headline": "How to Find Cheap and Clean Hotels in New York City",
+      "reference": "11 Cheap Sleeps In Manhattan",
+      "new_tokens": 12,
+      "latency_s": 6.384743966860697
+    },
+    {
+      "headline": "The Tobacco Problem: A Long Way to Go",
+      "reference": "Smoking Gun: 50th Anniversary of Tobacco-Cancer Connection",
+      "new_tokens": 10,
+      "latency_s": 6.217791066039354
+    },
+    {
+      "headline": "The Art of the Kiss",
+      "reference": "The Marriage Problem That Comes Every Four Years - WSJ.com",
+      "new_tokens": 6,
+      "latency_s": 5.109668636927381
+    },
+    {
+      "headline": "Why I Don't Eat Meat",
+      "reference": "Salad Days: Becoming A Vegetarian To Remember Grandma",
+      "new_tokens": 7,
+      "latency_s": 5.247684686910361
+    },
+    {
+      "headline": "Malcom & Marie\" Review: A Dark, Disturbing, and Disturbingly Good Look at the",
+      "reference": "How Zendaya, John David Washington Managed To Shoot A Secret Movie During A Pandemic",
+      "new_tokens": 24,
+      "latency_s": 10.30330966389738
+    },
+    {
+      "headline": "The Man Who Thought He Was Crazy",
+      "reference": "Oregon Shooter Ranted In Manifesto About Not Having Girlfriend",
+      "new_tokens": 8,
+      "latency_s": 4.698279174044728
+    },
+    {
+      "headline": "Trump\u2019s Twitter Account Is Now \u2018Off the Hook\u2019 After 90 Seconds of Silence",
+      "reference": "Donald Trump Just Had The Weirdest Phone Call With Ireland's New Leader",
+      "new_tokens": 18,
+      "latency_s": 8.532838840037584
+    },
+    {
+      "headline": "The LGBT Movement: A Call to Action",
+      "reference": "Presenting: The Pledge for Full LGBT Equality by 2014 -- The 50th Anniversary of the 1964 Civil Rights Act",
+      "new_tokens": 9,
+      "latency_s": 6.613017206080258
+    },
+    {
+      "headline": "How to Make a Home Story",
+      "reference": "The Top 15 Christmas Light Displays Of 2013 (VIDEO)",
+      "new_tokens": 7,
+      "latency_s": 5.0689780418761075
+    },
+    {
+      "headline": "Penelope Cruz Looks Stunning in Pink Giambattista Valli Gown",
+      "reference": "Penelope Cruz's Oscar Dress 2014 Looks Like A Perfectly-Wrapped Pink Present (PHOTOS)",
+      "new_tokens": 16,
+      "latency_s": 7.079924666089937
+    },
+    {
+      "headline": "The New Presidency: A New Day for the United States",
+      "reference": "Exclusive: New Photos Show Bush\u2019s Response To 9/11 Attacks",
+      "new_tokens": 12,
+      "latency_s": 6.456207143841311
+    },
+    {
+      "headline": "Trump\u2019s Travel Ban: A Fig Leaf for North Korea",
+      "reference": "The Dangerous Path Of Trump's Xenophobia",
+      "new_tokens": 12,
+      "latency_s": 6.231307809008285
+    },
+    {
+      "headline": "The GOP Health Bill: Unaffordable Care for the Next Generation",
+      "reference": "The AHCA Discriminates Against Me And Other Young, Sick People",
+      "new_tokens": 14,
+      "latency_s": 7.2684669978916645
+    },
+    {
+      "headline": "The Wedding of Will Packer and Heather Hayslett",
+      "reference": "Will Packer Marries In Surprise Wedding In Georgia",
+      "new_tokens": 12,
+      "latency_s": 6.4456839370541275
+    },
+    {
+      "headline": "Indiana's Religious Freedom Law: A Threat to the Constitution",
+      "reference": "Indiana Takes on America: Discrimination Against Gays, Religious Freedom and Rewriting the Constitution",
+      "new_tokens": 12,
+      "latency_s": 6.7159696919843554
+    }
+  ]
+}
