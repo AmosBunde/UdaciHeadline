@@ -1,0 +1,160 @@
+{
+  "model_footprint_gb": 4.943257856,
+  "peak_memory_gb": 7.272620032,
+  "memory_kind": "process RSS",
+  "rss_delta_gb": 0.23325081599999997,
+  "wall_time_s": 143.0130649220664,
+  "generation_args": {
+    "max_new_tokens": 24,
+    "do_sample": false,
+    "use_cache": true
+  },
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "pruning": {
+    "amount": 0.3,
+    "pruned_layers": 112,
+    "errors": [],
+    "global_sparsity": 0.3000000098655964,
+    "pruning_time_s": 50.451475671026856
+  },
+  "label": "pruned_30",
+  "n_samples": 20,
+  "max_new_tokens": 24,
+  "latency_mean_s": 7.148370774404611,
+  "latency_std_s": 1.3469187776777647,
+  "latency_p50_s": 6.972962385974824,
+  "latency_p99_s": 9.753588892200495,
+  "latency_min_s": 4.667297878069803,
+  "latency_max_s": 9.79507430898957,
+  "total_time_s": 142.96741548809223,
+  "avg_new_tokens": 14.0,
+  "throughput_tok_s": 1.9584882264540988,
+  "throughput_samples_s": 0.13989201617529276,
+  "rouge1": 0.11055645760888726,
+  "rouge2": 0.015367965367965367,
+  "rougeL": 0.1063897909422206,
+  "rougeLsum": 0.1063897909422206,
+  "samples": [
+    {
+      "headline": "Learning from My Elders: How to Use Online Coupons",
+      "reference": "Emma Watson's Sheer Pink Frock: Yay Or Nay? (PHOTOS)",
+      "new_tokens": 12,
+      "latency_s": 6.141165185952559
+    },
+    {
+      "headline": "Learning from My Elders: How to Use Online Coupons",
+      "reference": "The Conversation Nobody Wants To Have -- But Should",
+      "new_tokens": 12,
+      "latency_s": 7.257818482117727
+    },
+    {
+      "headline": "The 10th Amendment: The 10th Amendment",
+      "reference": "Republicans Sprinting Toward Tax Cuts, Deficits Be Damned",
+      "new_tokens": 12,
+      "latency_s": 6.203051227843389
+    },
+    {
+      "headline": "The Heart of a Father: How to Use the Stories of My Elders to Help You",
+      "reference": "A New Dimension to Christmas Leads to Year-Round Devotion",
+      "new_tokens": 19,
+      "latency_s": 9.012007219018415
+    },
+    {
+      "headline": "The 2019 Call for Appropriate Use of Antibiotics in the Hospital",
+      "reference": "1 In 25 Patients Experience Infection Related To Hospital Stay, Report Shows",
+      "new_tokens": 16,
+      "latency_s": 7.38869688892737
+    },
+    {
+      "headline": "Learning From My Elders: How to Use Online Coupons",
+      "reference": "11 Cheap Sleeps In Manhattan",
+      "new_tokens": 12,
+      "latency_s": 6.618955224053934
+    },
+    {
+      "headline": "Learning from My Elders: How to Use Online Coupons",
+      "reference": "Smoking Gun: 50th Anniversary of Tobacco-Cancer Connection",
+      "new_tokens": 12,
+      "latency_s": 7.179797709919512
+    },
+    {
+      "headline": "The 10 Best Online Deals: How to Use Online Coupons",
+      "reference": "The Marriage Problem That Comes Every Four Years - WSJ.com",
+      "new_tokens": 13,
+      "latency_s": 7.420187197159976
+    },
+    {
+      "headline": "Learning to Eat Meat: How to Use Online Coupons",
+      "reference": "Salad Days: Becoming A Vegetarian To Remember Grandma",
+      "new_tokens": 11,
+      "latency_s": 6.4895456549711525
+    },
+    {
+      "headline": "Learning from My Elders: How to Use Online Coupons",
+      "reference": "How Zendaya, John David Washington Managed To Shoot A Secret Movie During A Pandemic",
+      "new_tokens": 12,
+      "latency_s": 6.130330763058737
+    },
+    {
+      "headline": "The 10 Best Ways to Use Online Coupons",
+      "reference": "Oregon Shooter Ranted In Manifesto About Not Having Girlfriend",
+      "new_tokens": 10,
+      "latency_s": 6.4119675029069185
+    },
+    {
+      "headline": "The 2022-2022-2022-2022-2022-2022-2022-202",
+      "reference": "Donald Trump Just Had The Weirdest Phone Call With Ireland's New Leader",
+      "new_tokens": 24,
+      "latency_s": 9.576730010099709
+    },
+    {
+      "headline": "The LGBT Equality: A True Solution to Our Suffering in the Hearts and Minds of the World",
+      "reference": "Presenting: The Pledge for Full LGBT Equality by 2014 -- The 50th Anniversary of the 1964 Civil Rights Act",
+      "new_tokens": 21,
+      "latency_s": 8.853606371907517
+    },
+    {
+      "headline": "The Home Story: How to Use a Home Story Idea or Tip",
+      "reference": "The Top 15 Christmas Light Displays Of 2013 (VIDEO)",
+      "new_tokens": 14,
+      "latency_s": 7.1115821790881455
+    },
+    {
+      "headline": "Learning to Use Online Coupons",
+      "reference": "Penelope Cruz's Oscar Dress 2014 Looks Like A Perfectly-Wrapped Pink Present (PHOTOS)",
+      "new_tokens": 6,
+      "latency_s": 4.667297878069803
+    },
+    {
+      "headline": "The 9/11/11/11/11/11/11/11/11/11/11/",
+      "reference": "Exclusive: New Photos Show Bush\u2019s Response To 9/11 Attacks",
+      "new_tokens": 24,
+      "latency_s": 9.79507430898957
+    },
+    {
+      "headline": "The Travel Ban: A Fig Leaf",
+      "reference": "The Dangerous Path Of Trump's Xenophobia",
+      "new_tokens": 8,
+      "latency_s": 4.996617375174537
+    },
+    {
+      "headline": "The New GOP Health Bill: The Next Generation of Sick Americans",
+      "reference": "The AHCA Discriminates Against Me And Other Young, Sick People",
+      "new_tokens": 13,
+      "latency_s": 6.834342592861503
+    },
+    {
+      "headline": "The Best of Love: How to Use Online Dating Sites",
+      "reference": "Will Packer Marries In Surprise Wedding In Georgia",
+      "new_tokens": 12,
+      "latency_s": 6.544864588882774
+    },
+    {
+      "headline": "Learning from My Elders: How to Use the \"Religious Freedom\" Law",
+      "reference": "Indiana Takes on America: Discrimination Against Gays, Religious Freedom and Rewriting the Constitution",
+      "new_tokens": 17,
+      "latency_s": 8.333777127088979
+    }
+  ]
+}
