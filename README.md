@@ -78,10 +78,37 @@ see the hardware table in the project report) but a CUDA GPU is strongly recomme
     "lesson-1-Introduction_to_LLM_Inference_Optimization/exercises/starter/L1E1 Profiling Your First LLM Starter.ipynb"
 ```
 
-## Project
+## Project results (UdaciHeadline)
 
-See [`project/README.md`](project/README.md) for the project instructions, results and the
-final report.
+Headline generation with Llama‑3.2‑1B, benchmarked on an Intel i7‑10610U (4 cores, no GPU), fp32,
+20 eval samples, greedy decoding, ≤ 24 new tokens. Full details, methodology and analysis:
+[`project/REPORT.md`](project/REPORT.md) (PDF: [`project/REPORT.pdf`](project/REPORT.pdf)); notebook:
+[`project/UdaciHeadline_Project_Starter.ipynb`](project/UdaciHeadline_Project_Starter.ipynb); raw data:
+[`project/results/`](project/results/); setup and run instructions: [`project/README.md`](project/README.md).
+
+| Optimization | Mean latency (s) | P99 (s) | Throughput (tok/s) | Peak mem (GB) | ROUGE‑1 | Speed‑up |
+|---|---|---|---|---|---|---|
+| Baseline (no KV cache) | 58.39 | 109.53 | 0.20 | 6.20 | 0.154 | 1.00× |
+| **KV caching** | **6.50** | 9.06 | **1.83** | 6.26 | 0.154 | **8.98×** |
+| Pruning 30 % (unstructured, + KV) | 7.15 | 9.75 | 1.96 | 7.27 | 0.111 | 8.17× |
+| Quantization 8‑bit (bitsandbytes, + KV) | 18.24 | 29.96 | 0.67 | **3.92** | 0.172 | 3.20× |
+| Quantization 4‑bit NF4 (+ KV) | 13.42 | 20.17 | 0.94 | 3.91 | 0.123 | 4.35× |
+| Tensor parallelism (single‑device simulation) | 6.57 | 9.97 | 1.81 | 7.87 | 0.154 | 8.88× |
+| Pipeline parallelism (single‑device simulation) | 6.57 | 9.58 | 1.81 | 7.83 | 0.154 | 8.89× |
+| Llama‑3.2‑3B target alone (bf16, 8 samples) | 49.00 | 54.58 | 0.23 | 9.44 | 0.105 | 1.19× |
+| Speculative decoding 3B + 1B draft, K=5 | 67.83 | 78.43 | 0.17 | 11.90 | 0.102 | 0.86× |
+
+![comparison](project/results/comparison.png)
+
+**Take‑aways:** the KV cache is the dominant win (9× at identical output); int8 quantization halves the
+weight footprint (−37 % peak memory) at unchanged quality but is slower on the CPU bitsandbytes backend;
+unstructured pruning gives no speed/memory benefit and −28 % ROUGE‑1; tensor/pipeline parallelism is
+unnecessary for a 1B model; speculative decoding does not pay on a compute‑bound CPU (K sweep flat) but
+is the tool for GPU deployments of the 3B model. Recommendation: **bf16 + KV cache, batched, on one GPU;
+add int8 when memory‑constrained** (report §7).
+
+The lesson exercise notebooks (`lesson-*/exercises/starter/*.ipynb`) are solved in place and executed;
+their outputs and written analyses are inside the notebooks.
 
 ## Built With
 
