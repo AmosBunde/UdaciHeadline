@@ -1,0 +1,85 @@
+{
+  "model_footprint_gb": 6.42550016,
+  "peak_memory_gb": 11.903991808,
+  "memory_kind": "process RSS",
+  "rss_delta_gb": 9.011200000053066e-05,
+  "wall_time_s": 542.6518598799594,
+  "generation_args": {
+    "max_new_tokens": 24,
+    "do_sample": false,
+    "use_cache": true,
+    "assistant_model": "LlamaForCausalLM"
+  },
+  "device": "cpu",
+  "dtype": "torch.bfloat16",
+  "target_model": "unsloth/Llama-3.2-3B",
+  "draft_model": "unsloth/Llama-3.2-1B",
+  "num_assistant_tokens": 5,
+  "label": "speculative_3b_1b",
+  "n_samples": 8,
+  "max_new_tokens": 24,
+  "latency_mean_s": 67.82873612086405,
+  "latency_std_s": 5.831479768875971,
+  "latency_p50_s": 66.29426464857534,
+  "latency_p99_s": 78.43044058082857,
+  "latency_min_s": 59.67392013897188,
+  "latency_max_s": 78.69296531099826,
+  "total_time_s": 542.6298889669124,
+  "avg_new_tokens": 11.375,
+  "throughput_tok_s": 0.16770178320484821,
+  "throughput_samples_s": 0.014743013908118524,
+  "rouge1": 0.10189393939393938,
+  "rouge2": 0.01785714285714286,
+  "rougeL": 0.10189393939393938,
+  "rougeLsum": 0.10189393939393938,
+  "samples": [
+    {
+      "headline": "The BAFTAs Are Tomorrow, the Same Night as the Grammys",
+      "reference": "Emma Watson's Sheer Pink Frock: Yay Or Nay? (PHOTOS)",
+      "new_tokens": 15,
+      "latency_s": 64.251174492063
+    },
+    {
+      "headline": "Remembering My Father as a Whole Person",
+      "reference": "The Conversation Nobody Wants To Have -- But Should",
+      "new_tokens": 9,
+      "latency_s": 74.94261202285998
+    },
+    {
+      "headline": "The Inkblot Test: How to Read a Bill",
+      "reference": "Republicans Sprinting Toward Tax Cuts, Deficits Be Damned",
+      "new_tokens": 12,
+      "latency_s": 63.726189612876624
+    },
+    {
+      "headline": "Heart Disease: A Silent Killer",
+      "reference": "A New Dimension to Christmas Leads to Year-Round Devotion",
+      "new_tokens": 7,
+      "latency_s": 67.21985762915574
+    },
+    {
+      "headline": "CDC: Antibiotics in Hospitals Should Be Used Only When Needed",
+      "reference": "1 In 25 Patients Experience Infection Related To Hospital Stay, Report Shows",
+      "new_tokens": 13,
+      "latency_s": 78.69296531099826
+    },
+    {
+      "headline": "Finding a Cheap and Clean Place to Sleep in New York",
+      "reference": "11 Cheap Sleeps In Manhattan",
+      "new_tokens": 12,
+      "latency_s": 65.36867166799493
+    },
+    {
+      "headline": "Tobacco: A Problem That Hasn't Gone Away",
+      "reference": "Smoking Gun: 50th Anniversary of Tobacco-Cancer Connection",
+      "new_tokens": 11,
+      "latency_s": 68.75449809199199
+    },
+    {
+      "headline": "Learning From My Elders: How to Use Online Coupons",
+      "reference": "The Marriage Problem That Comes Every Four Years - WSJ.com",
+      "new_tokens": 12,
+      "latency_s": 59.67392013897188
+    }
+  ]
+}
