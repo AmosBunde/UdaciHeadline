@@ -1,0 +1,36 @@
+# Core deep-learning stack
+# NOTE: install torch first with the right index for your hardware, e.g.
+#   CPU : uv pip install --index-url https://download.pytorch.org/whl/cpu torch
+#   CUDA: uv pip install torch            (default PyPI wheels ship CUDA 12.x)
+torch>=2.4
+
+# Hugging Face ecosystem
+transformers>=4.50
+datasets>=2.20
+evaluate>=0.4
+accelerate>=1.0
+huggingface_hub>=0.25
+sentencepiece
+protobuf
+
+# Metrics
+rouge_score
+nltk
+absl-py
+
+# Quantization backends
+bitsandbytes>=0.45        # 8-bit / 4-bit (CUDA; CPU support experimental)
+optimum-quanto            # CPU-friendly int8/int4 weight quantization fallback
+
+# Data / plotting / notebooks
+pandas
+numpy
+matplotlib
+psutil
+jupyter
+nbconvert
+nbformat
+ipykernel
+
+# Optional (multi-GPU lessons / project section 6). Install separately:
+#   DS_BUILD_OPS=0 uv pip install deepspeed
