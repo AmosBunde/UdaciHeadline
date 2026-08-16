@@ -1,0 +1,65 @@
+{
+  "model_footprint_gb": 6.42550016,
+  "peak_memory_gb": 11.903995904,
+  "memory_kind": "process RSS",
+  "rss_delta_gb": 0.0,
+  "wall_time_s": 345.4139136618469,
+  "generation_args": {
+    "max_new_tokens": 24,
+    "do_sample": false,
+    "use_cache": true,
+    "assistant_model": "LlamaForCausalLM"
+  },
+  "device": "cpu",
+  "dtype": "torch.bfloat16",
+  "num_assistant_tokens": 5,
+  "label": "speculative_k5",
+  "n_samples": 5,
+  "max_new_tokens": 24,
+  "latency_mean_s": 69.0804121401161,
+  "latency_std_s": 5.64560031585499,
+  "latency_p50_s": 66.36883576982655,
+  "latency_p99_s": 76.91702163587324,
+  "latency_min_s": 62.64113955083303,
+  "latency_max_s": 77.0166299669072,
+  "total_time_s": 345.4020607005805,
+  "avg_new_tokens": 11.2,
+  "throughput_tok_s": 0.1621298954801108,
+  "throughput_samples_s": 0.014475883525009893,
+  "rouge1": 0.06303030303030302,
+  "rouge2": 0.0,
+  "rougeL": 0.06303030303030302,
+  "rougeLsum": 0.06303030303030302,
+  "samples": [
+    {
+      "headline": "The BAFTAs Are Tomorrow, the Same Night as the Grammys",
+      "reference": "Emma Watson's Sheer Pink Frock: Yay Or Nay? (PHOTOS)",
+      "new_tokens": 15,
+      "latency_s": 64.8490337219555
+    },
+    {
+      "headline": "Remembering My Father as a Whole Person",
+      "reference": "The Conversation Nobody Wants To Have -- But Should",
+      "new_tokens": 9,
+      "latency_s": 74.5264216910582
+    },
+    {
+      "headline": "The Inkblot Test: How to Read a Bill",
+      "reference": "Republicans Sprinting Toward Tax Cuts, Deficits Be Damned",
+      "new_tokens": 12,
+      "latency_s": 62.64113955083303
+    },
+    {
+      "headline": "Heart Disease: A Silent Killer",
+      "reference": "A New Dimension to Christmas Leads to Year-Round Devotion",
+      "new_tokens": 7,
+      "latency_s": 66.36883576982655
+    },
+    {
+      "headline": "CDC: Antibiotics in Hospitals Should Be Used Only When Needed",
+      "reference": "1 In 25 Patients Experience Infection Related To Hospital Stay, Report Shows",
+      "new_tokens": 13,
+      "latency_s": 77.0166299669072
+    }
+  ]
+}

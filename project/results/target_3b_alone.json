@@ -1,0 +1,82 @@
+{
+  "model_footprint_gb": 6.42550016,
+  "peak_memory_gb": 9.439686656,
+  "memory_kind": "process RSS",
+  "rss_delta_gb": 0.0012779519999988054,
+  "wall_time_s": 392.3674452858977,
+  "generation_args": {
+    "max_new_tokens": 24,
+    "do_sample": false,
+    "use_cache": true
+  },
+  "device": "cpu",
+  "dtype": "torch.bfloat16",
+  "target_model": "unsloth/Llama-3.2-3B",
+  "label": "target_3b_alone",
+  "n_samples": 8,
+  "max_new_tokens": 24,
+  "latency_mean_s": 49.000293788762065,
+  "latency_std_s": 3.0832378079836005,
+  "latency_p50_s": 49.89476225641556,
+  "latency_p99_s": 54.582102699938694,
+  "latency_min_s": 45.131954247830436,
+  "latency_max_s": 54.89915220509283,
+  "total_time_s": 392.0023503100965,
+  "avg_new_tokens": 11.25,
+  "throughput_tok_s": 0.22959046018169227,
+  "throughput_samples_s": 0.020408040905039313,
+  "rouge1": 0.10501893939393939,
+  "rouge2": 0.01923076923076923,
+  "rougeL": 0.10501893939393939,
+  "rougeLsum": 0.10501893939393939,
+  "samples": [
+    {
+      "headline": "The BAFTAs Are Tomorrow, the Same Night as the Grammys",
+      "reference": "Emma Watson's Sheer Pink Frock: Yay Or Nay? (PHOTOS)",
+      "new_tokens": 15,
+      "latency_s": 50.36987356003374
+    },
+    {
+      "headline": "Remembering My Father as a Whole Person",
+      "reference": "The Conversation Nobody Wants To Have -- But Should",
+      "new_tokens": 9,
+      "latency_s": 54.89915220509283
+    },
+    {
+      "headline": "The Inkblot Test: How to Read the News",
+      "reference": "Republicans Sprinting Toward Tax Cuts, Deficits Be Damned",
+      "new_tokens": 12,
+      "latency_s": 46.01348759117536
+    },
+    {
+      "headline": "Heart Disease: A Silent Killer",
+      "reference": "A New Dimension to Christmas Leads to Year-Round Devotion",
+      "new_tokens": 7,
+      "latency_s": 50.0621884719003
+    },
+    {
+      "headline": "CDC: Antibiotics in Hospitals Should Be Used Only When Necessary",
+      "reference": "1 In 25 Patients Experience Infection Related To Hospital Stay, Report Shows",
+      "new_tokens": 13,
+      "latency_s": 45.51041542808525
+    },
+    {
+      "headline": "Finding a Cheap Place to Sleep in New York City",
+      "reference": "11 Cheap Sleeps In Manhattan",
+      "new_tokens": 11,
+      "latency_s": 50.287942765047774
+    },
+    {
+      "headline": "Tobacco: A Problem That Hasn't Gone Away",
+      "reference": "Smoking Gun: 50th Anniversary of Tobacco-Cancer Connection",
+      "new_tokens": 11,
+      "latency_s": 49.72733604093082
+    },
+    {
+      "headline": "Learning From My Elders: How to Use Online Coupons",
+      "reference": "The Marriage Problem That Comes Every Four Years - WSJ.com",
+      "new_tokens": 12,
+      "latency_s": 45.131954247830436
+    }
+  ]
+}
