@@ -1,0 +1,23 @@
+[
+  {
+    "batch_size": 1,
+    "throughput_tok_s": 2.000925856135719,
+    "latency_per_headline_s": 5.9472468525054865,
+    "headlines_per_min": 10.088701795642281,
+    "rouge1": 0.1517101317790509
+  },
+  {
+    "batch_size": 4,
+    "throughput_tok_s": 1.857210354324818,
+    "latency_per_headline_s": 6.4074594309087844,
+    "headlines_per_min": 9.364085820125133,
+    "rouge1": 0.1517101317790509
+  },
+  {
+    "batch_size": 8,
+    "throughput_tok_s": 2.1652053837066103,
+    "latency_per_headline_s": 5.496014414867386,
+    "headlines_per_min": 10.917001934655177,
+    "rouge1": 0.1517101317790509
+  }
+]
