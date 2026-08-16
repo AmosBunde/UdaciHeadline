@@ -1,0 +1,153 @@
+{
+  "label": "baseline_no_cache",
+  "n_samples": 20,
+  "max_new_tokens": 24,
+  "latency_mean_s": 58.387684325804,
+  "latency_std_s": 25.604832694240564,
+  "latency_p50_s": 54.895782740437426,
+  "latency_p99_s": 109.5342050708155,
+  "latency_min_s": 25.08756313403137,
+  "latency_max_s": 110.61947902687825,
+  "total_time_s": 1167.75368651608,
+  "avg_new_tokens": 11.9,
+  "throughput_tok_s": 0.20381010374718497,
+  "throughput_samples_s": 0.01712689947455336,
+  "rouge1": 0.1539232960302586,
+  "rouge2": 0.02761904761904762,
+  "rougeL": 0.14256838449162454,
+  "rougeLsum": 0.14474560418057192,
+  "model_footprint_gb": 4.943257856,
+  "peak_memory_gb": 6.200250368,
+  "memory_kind": "process RSS",
+  "rss_delta_gb": 0.2954526719999997,
+  "wall_time_s": 1168.1497742370702,
+  "generation_args": {
+    "max_new_tokens": 24,
+    "do_sample": false,
+    "use_cache": false
+  },
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "samples": [
+    {
+      "headline": "The BAFTAs: A Night of Glamour and Glamourous Stars",
+      "reference": "Emma Watson's Sheer Pink Frock: Yay Or Nay? (PHOTOS)",
+      "new_tokens": 16,
+      "latency_s": 81.15135617298074
+    },
+    {
+      "headline": "The End of Life: A Personal Journey",
+      "reference": "The Conversation Nobody Wants To Have -- But Should",
+      "new_tokens": 9,
+      "latency_s": 45.84369053901173
+    },
+    {
+      "headline": "The Inking of the Inkblot",
+      "reference": "Republicans Sprinting Toward Tax Cuts, Deficits Be Damned",
+      "new_tokens": 9,
+      "latency_s": 39.46795149310492
+    },
+    {
+      "headline": "Heart Disease: A Reminder to Be Wary of Symptoms",
+      "reference": "A New Dimension to Christmas Leads to Year-Round Devotion",
+      "new_tokens": 12,
+      "latency_s": 55.369049704866484
+    },
+    {
+      "headline": "Antibiotic Use in Hospitals: A Call for Appropriate Use",
+      "reference": "1 In 25 Patients Experience Infection Related To Hospital Stay, Report Shows",
+      "new_tokens": 13,
+      "latency_s": 54.42251577600837
+    },
+    {
+      "headline": "How to Find Cheap and Clean Hotels in New York City",
+      "reference": "11 Cheap Sleeps In Manhattan",
+      "new_tokens": 12,
+      "latency_s": 56.05255721206777
+    },
+    {
+      "headline": "The Tobacco Problem: A Long Way to Go",
+      "reference": "Smoking Gun: 50th Anniversary of Tobacco-Cancer Connection",
+      "new_tokens": 10,
+      "latency_s": 51.86652325303294
+    },
+    {
+      "headline": "The Art of the Kiss",
+      "reference": "The Marriage Problem That Comes Every Four Years - WSJ.com",
+      "new_tokens": 6,
+      "latency_s": 25.08756313403137
+    },
+    {
+      "headline": "Why I Don't Eat Meat",
+      "reference": "Salad Days: Becoming A Vegetarian To Remember Grandma",
+      "new_tokens": 7,
+      "latency_s": 29.111500144004822
+    },
+    {
+      "headline": "Malcom & Marie\" Review: A Dark, Disturbing, and Disturbingly Good Look at the",
+      "reference": "How Zendaya, John David Washington Managed To Shoot A Secret Movie During A Pandemic",
+      "new_tokens": 24,
+      "latency_s": 91.01174558699131
+    },
+    {
+      "headline": "The Man Who Thought He Was Crazy",
+      "reference": "Oregon Shooter Ranted In Manifesto About Not Having Girlfriend",
+      "new_tokens": 8,
+      "latency_s": 29.31387806800194
+    },
+    {
+      "headline": "Trump\u2019s Twitter Account Is Now \u2018Off the Hook\u2019 After 90 Seconds of Silence",
+      "reference": "Donald Trump Just Had The Weirdest Phone Call With Ireland's New Leader",
+      "new_tokens": 18,
+      "latency_s": 63.9473576110322
+    },
+    {
+      "headline": "The LGBT Movement: A Call to Action",
+      "reference": "Presenting: The Pledge for Full LGBT Equality by 2014 -- The 50th Anniversary of the 1964 Civil Rights Act",
+      "new_tokens": 9,
+      "latency_s": 36.2036867630668
+    },
+    {
+      "headline": "How to Make a Home Story",
+      "reference": "The Top 15 Christmas Light Displays Of 2013 (VIDEO)",
+      "new_tokens": 7,
+      "latency_s": 25.434786594938487
+    },
+    {
+      "headline": "Penelope Cruz Looks Stunning in Pink Giambattista Valli Gown",
+      "reference": "Penelope Cruz's Oscar Dress 2014 Looks Like A Perfectly-Wrapped Pink Present (PHOTOS)",
+      "new_tokens": 16,
+      "latency_s": 56.95010445197113
+    },
+    {
+      "headline": "The New Presidency: A New Day for the United States",
+      "reference": "Exclusive: New Photos Show Bush\u2019s Response To 9/11 Attacks",
+      "new_tokens": 12,
+      "latency_s": 43.14996011904441
+    },
+    {
+      "headline": "Trump\u2019s Travel Ban: A Fig Leaf for North Korea",
+      "reference": "The Dangerous Path Of Trump's Xenophobia",
+      "new_tokens": 12,
+      "latency_s": 77.18077839491889
+    },
+    {
+      "headline": "The GOP Health Bill: Unaffordable Care for the Next Generation",
+      "reference": "The AHCA Discriminates Against Me And Other Young, Sick People",
+      "new_tokens": 14,
+      "latency_s": 104.90751083707437
+    },
+    {
+      "headline": "The Wedding of Will Packer and Heather Hayslett",
+      "reference": "Will Packer Marries In Surprise Wedding In Georgia",
+      "new_tokens": 12,
+      "latency_s": 90.66169163305312
+    },
+    {
+      "headline": "Indiana's Religious Freedom Law: A Threat to the Constitution",
+      "reference": "Indiana Takes on America: Discrimination Against Gays, Religious Freedom and Rewriting the Constitution",
+      "new_tokens": 12,
+      "latency_s": 110.61947902687825
+    }
+  ]
+}
