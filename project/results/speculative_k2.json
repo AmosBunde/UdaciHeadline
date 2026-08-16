@@ -1,0 +1,65 @@
+{
+  "model_footprint_gb": 6.42550016,
+  "peak_memory_gb": 11.903995904,
+  "memory_kind": "process RSS",
+  "rss_delta_gb": 0.0,
+  "wall_time_s": 322.79131077206694,
+  "generation_args": {
+    "max_new_tokens": 24,
+    "do_sample": false,
+    "use_cache": true,
+    "assistant_model": "LlamaForCausalLM"
+  },
+  "device": "cpu",
+  "dtype": "torch.bfloat16",
+  "num_assistant_tokens": 2,
+  "label": "speculative_k2",
+  "n_samples": 5,
+  "max_new_tokens": 24,
+  "latency_mean_s": 64.55595388812944,
+  "latency_std_s": 4.016373795027088,
+  "latency_p50_s": 63.892511090030894,
+  "latency_p99_s": 71.63051749343053,
+  "latency_min_s": 60.61720926989801,
+  "latency_max_s": 71.90500597003847,
+  "total_time_s": 322.7797694406472,
+  "avg_new_tokens": 11.2,
+  "throughput_tok_s": 0.17349290538574874,
+  "throughput_samples_s": 0.015490437980870424,
+  "rouge1": 0.06303030303030302,
+  "rouge2": 0.0,
+  "rougeL": 0.06303030303030302,
+  "rougeLsum": 0.06303030303030302,
+  "samples": [
+    {
+      "headline": "The BAFTAs Are Tomorrow, the Same Night as the Grammys",
+      "reference": "Emma Watson's Sheer Pink Frock: Yay Or Nay? (PHOTOS)",
+      "new_tokens": 15,
+      "latency_s": 63.892511090030894
+    },
+    {
+      "headline": "Remembering My Father as a Whole Person",
+      "reference": "The Conversation Nobody Wants To Have -- But Should",
+      "new_tokens": 9,
+      "latency_s": 71.90500597003847
+    },
+    {
+      "headline": "The Inkblot Test: How to Read the News",
+      "reference": "Republicans Sprinting Toward Tax Cuts, Deficits Be Damned",
+      "new_tokens": 12,
+      "latency_s": 61.322249055840075
+    },
+    {
+      "headline": "Heart Disease: A Silent Killer",
+      "reference": "A New Dimension to Christmas Leads to Year-Round Devotion",
+      "new_tokens": 7,
+      "latency_s": 65.04279405483976
+    },
+    {
+      "headline": "CDC: Antibiotics in Hospitals Should Be Used Only When Necessary",
+      "reference": "1 In 25 Patients Experience Infection Related To Hospital Stay, Report Shows",
+      "new_tokens": 13,
+      "latency_s": 60.61720926989801
+    }
+  ]
+}
