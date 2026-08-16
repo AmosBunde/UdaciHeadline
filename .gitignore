@@ -1,0 +1,30 @@
+# Python / virtualenvs
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.ipynb_checkpoints/
+
+# Model weights & large caches (never commit)
+models/
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+hf_cache/
+
+# Profiler traces / logs
+*.trace.json
+runs/
+logs/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Claude local settings
+.claude/settings.local.json
